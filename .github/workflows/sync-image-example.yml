@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/jenkins/jenkins:jdk17 docker://registry.cn-hangzhou.aliyuncs.com/aluo_space/jenkins:jdk17
+         skopeo copy docker://docker.io/zlmediakit/zlmediakit docker://registry.cn-hangzhou.aliyuncs.com/aluo_space/zlmediakit
