@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/zlmediakit/zlmediakit docker://registry.cn-hangzhou.aliyuncs.com/aluo_space/zlmediakit:1.0.0
+         skopeo copy docker://docker.io/panjjo/zlmediakit:1.2.6 docker://registry.cn-hangzhou.aliyuncs.com/aluo_space/zlmediakit:1.2.6
